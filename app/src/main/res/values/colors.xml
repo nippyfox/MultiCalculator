@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primary">#B2EBF2</color>
+    <color name="my_dark_primary">#30989e</color>
+
+    <color name="light_background_color_start">#e2e8ef</color>
+    <color name="light_background_color_end">#d1dae5</color>
+    <color name="light_background_numbers_start">#FFFFFF</color>
+    <color name="light_background_numbers_end">#E4E9F1</color>
+
+    <color name="dark_background_color_start">#0a2a39</color>
+    <color name="dark_background_color_end">#091d32</color>
+    <color name="dark_background_numbers_start">#0a2d3f</color>
+    <color name="dark_background_numbers_end">#0b2841</color>
+
+    <color name="iconColor">#0f0f0f</color>
+
+    <color name="light_back_text">#72777b</color>
+    <color name="dark_back_text">#9da6af</color>
+
+    <color name="button_back">#FF1A2730</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MultiCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimaryContainer">@color/light_back_text</item>
+        <item name="colorPrimaryContainer">@color/my_light_primary</item>
+        <item name="backgroundInsetTop">@color/light_background_color_start</item>
+        <item name="backgroundInsetStart">@color/light_background_color_end</item>
+        <item name="backgroundInsetEnd">@color/light_background_numbers_start</item>
+        <item name="backgroundInsetBottom">@color/light_background_numbers_end</item>
+    </style>
+
+    <style name="Theme.MultiCalculator" parent="Base.Theme.MultiCalculator" />
+</resources>
