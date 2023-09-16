@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general">Hauptseite</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_theme">Thema</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_lang_name">Deutsch</string>
+    <string name="lang_english">Engels</string>
+    <string name="lang_german">Duits</string>
+    <string name="lang_russian">Russisch</string>
+    <string name="settings_addition">Zusatz</string>
+    <string name="settings_subtraction">Subtraktion</string>
+    <string name="settings_multiplication">Multiplikation</string>
+    <string name="settings_division">Division</string>
+    <string name="theme_system">Wie im System</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Dunkles</string>
+    <string name="settings_mod">Rest aus der Teilung</string>
+    <string name="settings_integer_div">Gehele deling</string>
+    <string name="attention_more_than_4_operators">Sie können nicht weniger als 4 Operatoren verwenden</string>
+    <string name="settings_to_power">Potenzierens</string>
+</resources>

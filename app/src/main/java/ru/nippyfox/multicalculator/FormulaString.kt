@@ -4,11 +4,6 @@ class FormulaString {
     private var value: String? = null
     private var height: Int? = null
 
-    constructor() {
-        this.value = ""
-        this.height = 0
-    }
-
     constructor(height: Int) {
         this.value = ""
         this.height = height
@@ -25,9 +20,11 @@ class FormulaString {
 
     fun addValue(newLine: String) {
         this.value += newLine
-        val nowValue = this.getValue()
+        val nowValue = removeRedundantLines(this.getValue())
         if (countNewLines(nowValue) >= getHeight()) {
             setValue(nowValue.substringAfter('\n'))
+        } else {
+            setValue(nowValue)
         }
     }
 
@@ -45,5 +42,19 @@ class FormulaString {
 
     private fun countNewLines(s: String): Int {
         return s.count { it == '\n' }
+    }
+
+    private fun removeRedundantLines(input: String): String {
+        val arrayOfSym: Array<Char> = arrayOf('+', '-', '×', '÷', '^', ' ')
+        val lines = input.lines()
+        val lastLine = lines.last()
+
+        val filteredLines = lines.dropLast(1).filter { line ->
+            !arrayOfSym.any { symbol ->
+                line.lastOrNull() == symbol
+            }
+        }
+
+        return (filteredLines + lastLine).joinToString("\n")
     }
 }

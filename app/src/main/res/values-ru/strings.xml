@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general">Калькулятор</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_lang_name">Русский</string>
+    <string name="lang_english">Английский</string>
+    <string name="lang_german">Немецкий</string>
+    <string name="lang_russian">Русский</string>
+    <string name="settings_addition">Сложение</string>
+    <string name="settings_subtraction">Вычитание</string>
+    <string name="settings_multiplication">Умножение</string>
+    <string name="settings_division">Деление</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="settings_mod">Остаток от деления</string>
+    <string name="settings_integer_div">Целочисленное деление</string>
+    <string name="attention_more_than_4_operators">Вы не можете использовать меньше 4 операторов</string>
+    <string name="settings_to_power">Возведение в степень</string>
+</resources>
