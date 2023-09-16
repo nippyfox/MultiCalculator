@@ -162,12 +162,14 @@ class GeneralFragment : Fragment(), GestureDetector.OnGestureListener {
                     binding.tvResult.text = firstNumber
                 }
             } else if (binding.tvResult.text.startsWith("=")) {
-                firstNumber += "."
-                currentOperator = ""
-                result = ""
-                binding.tvResult.text = firstNumber
-                formula.setValue("")
-                binding.tvFormula.text = formula.getValue()
+                if (!binding.tvResult.text.contains(".")) {
+                    firstNumber += "."
+                    currentOperator = ""
+                    result = ""
+                    binding.tvResult.text = firstNumber
+                    formula.setValue("")
+                    binding.tvFormula.text = formula.getValue()
+                }
             } else if (!currentNumber.contains(".")) {
                 currentNumber += if (currentNumber.isEmpty()) "0."
                 else "."
