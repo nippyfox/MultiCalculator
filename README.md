@@ -1,4 +1,4 @@
-<img title="" src="https://raw.githubusercontent.com/nippyfox/MultiCalculator/main/app/src/main/ic_launcher-playstore.png?token=GHSAT0AAAAAACGJAXFBZHYMRB6GEELW7MVCZIFXX6A" alt="ic_launcher-playstore.png" width="107">
+<img title="" src="https://github.com/nippyfox/MultiCalculator/blob/main/app/src/main/ic_launcher-playstore.png?raw=true" alt="ic_launcher-playstore.png" width="107">
 
 # MultiCalculator
 
