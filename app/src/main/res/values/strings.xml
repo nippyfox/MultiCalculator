@@ -35,8 +35,8 @@
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
     <string name="settings_mod">Residue from division</string>
-    <string name="settings_integer_div">Integer division</string>
     <string name="attention_more_than_4_operators">You can\'t use less than 4 operators</string>
     <string name="power_of" translatable="false">^</string>
     <string name="settings_to_power">Exponentiation</string>
+    <string name="lang_french">French</string>
 </resources>

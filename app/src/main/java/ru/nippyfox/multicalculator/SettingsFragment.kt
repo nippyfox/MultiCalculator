@@ -156,6 +156,7 @@ class SettingsFragment : Fragment() {
             R.id.item_lang_en -> changeLanguage(this, "en")
             R.id.item_lang_de -> changeLanguage(this, "de")
             R.id.item_lang_ru -> changeLanguage(this, "ru")
+            R.id.item_lang_fr -> changeLanguage(this, "fr")
             R.id.item_theme_system -> changeTheme(this, -1)
             R.id.item_theme_dark -> changeTheme(this, Configuration.UI_MODE_NIGHT_YES)
             R.id.item_theme_light -> changeTheme(this, Configuration.UI_MODE_NIGHT_NO)

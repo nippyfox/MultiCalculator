@@ -7,6 +7,9 @@
         android:id="@+id/item_lang_de"
         android:title="@string/lang_german" />
     <item
+        android:id="@+id/item_lang_fr"
+        android:title="@string/lang_french" />
+    <item
         android:id="@+id/item_lang_ru"
         android:title="@string/lang_russian" />
 </menu>

@@ -171,8 +171,7 @@ class GeneralFragment : Fragment(), GestureDetector.OnGestureListener {
                     binding.tvFormula.text = formula.getValue()
                 }
             } else if (!currentNumber.contains(".")) {
-                currentNumber += if (currentNumber.isEmpty()) "0."
-                else "."
+                currentNumber += if (currentNumber.isEmpty()) "0." else "."
                 binding.tvResult.text = currentNumber
             }
         }

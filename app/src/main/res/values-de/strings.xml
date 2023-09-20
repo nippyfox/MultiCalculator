@@ -16,7 +16,7 @@
     <string name="theme_light">Licht</string>
     <string name="theme_dark">Dunkles</string>
     <string name="settings_mod">Rest aus der Teilung</string>
-    <string name="settings_integer_div">Gehele deling</string>
     <string name="attention_more_than_4_operators">Sie können nicht weniger als 4 Operatoren verwenden</string>
     <string name="settings_to_power">Potenzierens</string>
+    <string name="lang_french">Französische</string>
 </resources>

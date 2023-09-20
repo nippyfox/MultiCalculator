@@ -16,7 +16,7 @@
     <string name="theme_light">Светлая</string>
     <string name="theme_dark">Тёмная</string>
     <string name="settings_mod">Остаток от деления</string>
-    <string name="settings_integer_div">Целочисленное деление</string>
     <string name="attention_more_than_4_operators">Вы не можете использовать меньше 4 операторов</string>
     <string name="settings_to_power">Возведение в степень</string>
+    <string name="lang_french">Французский</string>
 </resources>
